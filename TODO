@@ -1,0 +1,5 @@
+- Unit tests
+- Long data sources table
+- Button glow
+- Form submission on pressing Enter
+- Automatic text trimming with `.trim`

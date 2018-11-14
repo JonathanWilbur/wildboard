@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/roboto/Roboto-Light.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* @font-face {
+    font-family: 'Roboto';
+    src: url('fonts/roboto/Roboto-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/roboto/Roboto-Italic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: normal;
+} */
+
+:root {
+    --primary: #111111;
+    --secondary: #222222;
+    --accent: #AA8800;
+    --font-color: #AAAAAA;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+html,body {
+    height: 100%;
+}
+
+body {
+    background-color: var(--primary);
+    color: var(--font-color);
+}
+
+body>div {
+    height: 100%;
+    width: 100%;
+}
+
+input,button,select,option {
+    background-color: var(--primary);
+    color: var(--font-color);
+    border-style: none;
+    margin: 5px;
+    padding: 5px;
+    font-size: 12pt;
+}
+
+button:hover {
+    color: var(--accent);
+}

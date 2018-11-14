@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "strict": true,
+        "noImplicitReturns": true,
+        "module": "es2015",
+        "moduleResolution": "node",
+        "target": "es5",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "allowJs": true
+    },
+    "include": [
+        "./source/client/index.ts",
+        "./source/client/vue-shims.d.ts",
+        "./source/client/components/*.vue",
+        "./source/client/classes/*.ts",
+        "./source/client/stores/*.ts",
+        "./source/client/WidgetTypes.ts",
+        "./source/client/data-source-types/*.ts",
+        "./source/client/widget-types/*.vue",
+        "./node_modules/vue-grid-layout/GridItem.vue",
+        "./node_modules/vue-grid-layout/GridLayout.vue"
+    ]
+}
